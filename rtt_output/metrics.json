@@ -1,0 +1,61 @@
+{
+  "settings": {
+    "window": 10,
+    "horizon": 5,
+    "stride": 5,
+    "predict_delta": true,
+    "congestion_factor": 1.2,
+    "tree_params": {
+      "max_depth": 14,
+      "min_samples_leaf": 20
+    }
+  },
+  "rtt_prediction_error_ms": {
+    "decision_tree": {
+      "MAE": 8.622230063576744,
+      "RMSE": 15.878604055529372,
+      "R2": 0.8994918577442833,
+      "MAPE_%": 7.910803423668365
+    },
+    "persistence_baseline": {
+      "MAE": 24.76244689104261,
+      "RMSE": 34.97235173233068,
+      "R2": 0.5124420052062271,
+      "MAPE_%": 19.87402550736467
+    }
+  },
+  "congestion_detection": {
+    "label_1_rtt_inflation": {
+      "positive_rate": 0.1375376965399756,
+      "decision_tree": {
+        "precision": 0.8341671878257244,
+        "recall": 0.6697631600970793
+      },
+      "reactive_baseline": {
+        "precision": 0.3503359044538442,
+        "recall": 0.2356682567578877
+      }
+    },
+    "label_2_retransmission_ahead": {
+      "positive_rate": 0.2582702180068602,
+      "decision_tree": {
+        "precision": 0.16395663956639567,
+        "recall": 0.07010428736964079
+      },
+      "reactive_baseline": {
+        "precision": 0.49912913660114455,
+        "recall": 0.17880381495676975
+      }
+    }
+  },
+  "prediction_lead_time_samples": 5,
+  "lead_time_note": "Dataset has no time column; multiply by the `ss` polling interval to get seconds.",
+  "cost": {
+    "train_time_s": 257.5341252000071,
+    "train_peak_mem_MB": 112.915775,
+    "inference_ms_per_prediction": 0.1895483999978751,
+    "model_size_KB": 374.2958984375,
+    "tree_depth": 14,
+    "tree_leaves": 2655
+  }
+}

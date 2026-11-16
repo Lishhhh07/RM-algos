@@ -1,0 +1,10 @@
+# Dataset is large (~3M rows) - do NOT commit it; download from Zenodo instead
+tcp-dataset/
+tcp-dataset*/
+*.zip
+
+# Python junk
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
