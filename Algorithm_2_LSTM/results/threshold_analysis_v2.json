@@ -1,0 +1,48 @@
+{
+    "RTT Inflation": {
+        "validation_positive_rate": 0.1388126249203804,
+        "validation_best_f1": 0.8194255539943299,
+        "validation_selected_threshold": 0.350798636674881,
+        "test_default_threshold_0.5": {
+            "threshold": 0.5,
+            "accuracy": 0.9452287804048307,
+            "precision": 0.8780207134637514,
+            "recall": 0.7023626879410863,
+            "f1": 0.7804295942720764,
+            "pr_auc": 0.8799316154198148,
+            "predicted_positive_rate": 0.11086069059363837
+        },
+        "test_validation_selected_threshold": {
+            "threshold": 0.350798636674881,
+            "accuracy": 0.9443357713896922,
+            "precision": 0.8179002282360613,
+            "recall": 0.7697146363915311,
+            "f1": 0.7930761934871957,
+            "pr_auc": 0.8799316154198148,
+            "predicted_positive_rate": 0.13042184044905597
+        }
+    },
+    "Retransmission Risk": {
+        "validation_positive_rate": 0.26807089986601945,
+        "validation_best_f1": 0.9033978424614231,
+        "validation_selected_threshold": 0.42408666014671326,
+        "test_default_threshold_0.5": {
+            "threshold": 0.5,
+            "accuracy": 0.9494599421670352,
+            "precision": 0.9053525347540164,
+            "recall": 0.897655992076593,
+            "f1": 0.9014878362136848,
+            "pr_auc": 0.970829723124703,
+            "predicted_positive_rate": 0.25542184044905597
+        },
+        "test_validation_selected_threshold": {
+            "threshold": 0.42408666014671326,
+            "accuracy": 0.950097805749277,
+            "precision": 0.8888004457534029,
+            "recall": 0.9215912842522285,
+            "f1": 0.9048989019004011,
+            "pr_auc": 0.970829723124703,
+            "predicted_positive_rate": 0.2671160061234904
+        }
+    }
+}

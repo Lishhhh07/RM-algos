@@ -1,0 +1,43 @@
+{
+    "RTT Delta": {
+        "MAE": 14.142273902893066,
+        "RMSE": 24.258639025774148,
+        "R2": 0.5042902827262878
+    },
+    "RTT Inflation": {
+        "accuracy": 0.8900765234484695,
+        "precision": 0.7112602222688195,
+        "recall": 0.6590887010589721,
+        "f1": 0.6841813322575765,
+        "pr_auc": 0.6915888757248889
+    },
+    "Retransmission Risk": {
+        "accuracy": 0.9338317888233643,
+        "precision": 0.8384569467243695,
+        "recall": 0.8750194673726834,
+        "f1": 0.8563481176649901,
+        "pr_auc": 0.9305508398167698
+    },
+    "test_algorithms": [
+        "bbr",
+        "cubic",
+        "reno"
+    ],
+    "test_samples": 56976,
+    "training_algorithms": [
+        "bic",
+        "cdg",
+        "dctcp",
+        "highspeed",
+        "htcp",
+        "hybla",
+        "illinois",
+        "lp",
+        "nv",
+        "scalable",
+        "vegas",
+        "veno",
+        "westwood",
+        "yeah"
+    ]
+}
